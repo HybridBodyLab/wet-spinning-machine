@@ -8,6 +8,7 @@ mountXSize = 20;
 mountZSize = syringeCenterHeight;
 
 //slot parameters
+//plungerDiameter = 33.37; //previously 30.5 - 33.37
 //plungerInnerDiameter = 18.55;//previously 15
 //barrelSlotThickness = 2.5; //2.5, 1.7
 //barrelSlotOffset = mountXSize/2 - barrelSlotThickness/2;
