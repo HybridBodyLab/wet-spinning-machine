@@ -5,11 +5,7 @@ BLK-A-1A
 GRN-C-1B
 RED-B-2A
 BLU-D-2B
-
-Jingwen Mar 2023
 */
-
-// OLED Display - Kaitlyn 9/26
 
 #include <SPI.h>
 #include <Wire.h>
@@ -23,15 +19,19 @@ Jingwen Mar 2023
 #define MODE_CHARCOAL 3
 
 /************SPEED SETTINGS*************/
+//reset
 #define EXTRUDER_DELAY_0 1
 #define BOBBIN_DELAY_0 3
 
+//regular
 #define EXTRUDER_DELAY_1 8
 #define BOBBIN_DELAY_1 3
 
+//thermo
 #define EXTRUDER_DELAY_2 12
 #define BOBBIN_DELAY_2 5
 
+//charcoal
 #define EXTRUDER_DELAY_3 12
 #define BOBBIN_DELAY_3 6
 /***************************************/
