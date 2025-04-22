@@ -31,11 +31,11 @@ difference(){
 	//hole for syringe barrel stopper
 	translate([-floatCorrection,centerY,syringeCenterHeight]){
 		rotate(a=[0,90,0]){
-			cylinder(h=mountXSize+floatCorrection2, r=5.2);
+			cylinder(h=mountXSize+floatCorrection2, r=hubDiameter/2);
 		}
         // 8/29 translate and cube added
         translate([0,-5.2,0]){
-			cube(size=[mountXSize+floatCorrection2,5.2*2,mountZSize]);
+			cube(size=[mountXSize+floatCorrection2,hubDiameter,mountZSize]);
         }
 	}
 }

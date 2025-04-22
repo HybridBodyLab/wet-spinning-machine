@@ -7,12 +7,6 @@ include <syringePumpConstants.scad>
 mountXSize = 20;
 mountZSize = syringeCenterHeight;
 
-//slot parameters
-//plungerDiameter = 33.37; //previously 30.5 - 33.37
-//plungerInnerDiameter = 18.55;//previously 15
-//barrelSlotThickness = 2.5; //2.5, 1.7
-//barrelSlotOffset = mountXSize/2 - barrelSlotThickness/2;
-barrelSlotHeight = 35;
 
 barrelSlotOffset = mountXSize/2 - barrelSlotThickness/2;
 
@@ -51,7 +45,6 @@ difference(){
 			cylinder(h=mountXSize+floatCorrection2, r=plungerDiameter/2);
 		}	
 		translate([0,-plungerInnerDiameter/2,0]){
-			cube(size=[barrelSlotThickness+floatCorrection2,plungerInnerDiameter,mountZSize]);
 		}
 	}	
 	

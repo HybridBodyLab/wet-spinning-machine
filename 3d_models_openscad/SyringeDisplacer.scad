@@ -7,13 +7,7 @@ printTolerance = 0.05; //Megan
 //add some clearance, we don't want this against the 8020 rails
 spaceAboveFloor = 0.5; //previously 2 - Megan
 
-//plunger
-/*
-plungerDiameter = 34;//previously 26.5, prev 35
-plungerThickness = 2.7; //previously 3
-plungerInnerDiameter = 19;//previously 15
-plungerClipThickness = 3.5; //previously 3
-*/
+plungerClipThickness = 3.5;
 plungerWellDepth = plungerThickness + plungerClipThickness;
 
 //trap nut

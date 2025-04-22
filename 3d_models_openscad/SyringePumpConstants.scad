@@ -1,6 +1,26 @@
 
 /* === Project-universal Constants === */
 
+
+
+//** syringe properties, change if using a different syringe **//
+//units are mm
+//used in syringe displacer
+plungerDiameter = 34;
+plungerThickness = 2.7;
+plungerInnerDiameter = 19;
+
+//used in flange holder
+barrelDiameter = 32;
+barrelSlotThickness = 2.5;
+barrelSlotHeight = 35; //35
+
+//used in syringe hub holder
+hubDiameter = 10.4;
+//** do not edit below **//
+
+
+
 //Not all of these variables are used in this specific model,
 //but the same variable set is used across all models in this project.
 
@@ -28,26 +48,7 @@ threadedAxisHeight = stepperZSize/2 + mountPlateHeight + 4;
 smoothAxisHeight = (threadedAxisHeight-6.6) / 2;
 smoothRodRadius = 4.1; //original value: 4.2, previously changed to 4.05
 
-//syringe properties
-barrelDiameter = 32;
-
-//barrelSlotThickness = 3;
-//barrelSlotHeight = 28;
-
 syringeCenterHeight = threadedAxisHeight + bearing608Diameter/2 + 4 + barrelDiameter/2;
-
-//Megan
-plungerDiameter = 34; //previously 26.5, prev 35
-plungerThickness = 2.7; //previously 3
-plungerInnerDiameter = 19;//previously 15
-plungerClipThickness = 3.5; //previously 3
-
-//slot parameters
-barrelSlotThickness = 2.5; //2.5, 1.7
-barrelSlotHeight = 35;
-
-
-
 
 //fixes render oddities
 floatCorrection = 0.001; 
